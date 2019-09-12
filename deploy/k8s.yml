@@ -144,7 +144,7 @@ metadata:
   name:  nginx-hello-word
 spec:
   selector:
-    app:  svc-nginx-hello-word
+    app: nginx-hello-word
   type:  ClusterIP
   ports:
   - name:  http
